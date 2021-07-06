@@ -6,7 +6,7 @@ a {
 
 /*font*/
 .bodyfont {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   box-sizing: border-box;
   margin: 0;
 }
@@ -21,13 +21,14 @@ a {
 
 .header__ohmyfoodimg {
   width: 162px;
-  margin: 0px 100px 0px 100px;
+  margin: 0px 78px 0px 100px;
 }
 
 .header__display {
   display: none;
 }
 
+/*paris belleville bouton*/
 .parismap {
   display: flex;
   display: flex;
@@ -45,5 +46,15 @@ a {
 .parismap:active {
   box-shadow: 0 0 0 black, inset 1px 4px 3px #a8a3a3;
   transform: translate(0px, 6px);
+}
+
+/*Réservez le menu*/
+.title {
+  width: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 120px;
+  text-indent: -40px;
 }
 /*# sourceMappingURL=style.css.map */

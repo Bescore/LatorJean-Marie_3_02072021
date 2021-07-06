@@ -6,6 +6,7 @@ $color-primary: #9356dc;
 $color-secondary: #ff79da;
 $color-tertiary: #99e2d0;
 $color-four: #f2f2f2;
+$color-grey:grey;
 a {
   margin: 0;
 }
@@ -94,20 +95,28 @@ a {
   margin-top: 50px;
   margin-left: 20px;
 }
+#iconesize{
+    margin: 20px;
+    margin-left: -10px;
+    color: $color-grey;
+}
 .iconesize {
   margin: 20px;
+  margin-left: 0px;
+  color: $color-grey;
 }
 .blocflex {
   @include displayflex;
   @include center;
+  margin-top: 20px
 }
 .option {
   @include center;
-  width: 324px;
+  width: 310px;
   height: 70px;
   background-color: $color-four;
   border-radius: 20px;
-  padding-right: 10px;
+  margin-right: 20px;
   box-shadow: 1px 4px 5px 1px rgb(201, 197, 197);
 }
 

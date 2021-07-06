@@ -1,5 +1,9 @@
 @charset "UTF-8";
 /*général*/
+:root {
+  font-size: 14px;
+}
+
 a {
   margin: 0;
 }
@@ -44,8 +48,9 @@ a {
 }
 
 .parismap:active {
-  box-shadow: 0 0 0 black, inset 1px 4px 3px #a8a3a3;
+  box-shadow: 0 0 0 black, inset 1px 4px 3px #636161;
   transform: translate(0px, 6px);
+  background-color: #e6e0e0;
 }
 
 /*Réservez le menu*/
@@ -67,6 +72,10 @@ a {
   text-align: center;
 }
 
+.sectbackground {
+  background-color: #f2f2f2;
+}
+
 .explorer-div {
   display: flex;
   justify-content: center;
@@ -82,5 +91,48 @@ a {
   background-image: linear-gradient(to bottom right, #ff79da, #9356dc);
   color: white;
   border-radius: 30px;
+  box-shadow: 1px 4px 5px 1px #c9c5c5;
+}
+
+/*NAV*/
+.Fonctionne-text {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.iconesize {
+  margin: 20px;
+}
+
+.blocflex {
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 324px;
+  height: 70px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  padding-right: 10px;
+  box-shadow: 1px 4px 5px 1px #c9c5c5;
+}
+
+.option__numbers {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9356dc;
+  color: white;
+  border-radius: 20px;
+  position: relative;
+  left: 10px;
 }
 /*# sourceMappingURL=style.css.map */

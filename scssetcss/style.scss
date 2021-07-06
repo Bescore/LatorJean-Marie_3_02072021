@@ -1,5 +1,7 @@
 /*général*/
-
+:root {
+  font-size: 14px;
+}
 $color-primary: #9356dc;
 $color-secondary: #ff79da;
 $color-tertiary: #99e2d0;
@@ -49,35 +51,73 @@ a {
 }
 
 .parismap:active {
-  box-shadow: 0 0 0 black, inset 1px 4px 3px rgb(168, 163, 163);
+  box-shadow: 0 0 0 black, inset 1px 4px 3px rgb(99, 97, 97);
   transform: translate(0px, 6px);
+  background-color: #e6e0e0;
 }
 
 /*Réservez le menu*/
-.divtitle{
-    @include center;
-    flex-direction: column;
+.divtitle {
+  @include center;
+  flex-direction: column;
 }
 .title {
   margin-top: 40px;
   width: 240px;
   text-align: center;
-  &__p{
-      width: 280px;
-      text-align: center;
+  &__p {
+    width: 280px;
+    text-align: center;
+  }
 }
+.sectbackground {
+  background-color: $color-four;
 }
-
-.explorer-div{
+.explorer-div {
+  @include center;
+  &__btn {
+    width: 218px;
+    height: 50px;
     @include center;
-    &__btn{
-        width: 218px;
-        height: 50px;
-        @include center;
-        background-image:  linear-gradient( to bottom right, $color-secondary,$color-primary);
-        color: white;
-        border-radius: 30px;
-    
+    background-image: linear-gradient(
+      to bottom right,
+      $color-secondary,
+      $color-primary
+    );
+    color: white;
+    border-radius: 30px;
+    box-shadow: 1px 4px 5px 1px rgb(201, 197, 197);
+  }
+}
+/*NAV*/
+.Fonctionne-text {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.iconesize {
+  margin: 20px;
+}
+.blocflex {
+  @include displayflex;
+  @include center;
+}
+.option {
+  @include center;
+  width: 324px;
+  height: 70px;
+  background-color: $color-four;
+  border-radius: 20px;
+  padding-right: 10px;
+  box-shadow: 1px 4px 5px 1px rgb(201, 197, 197);
+}
 
-    }
+.option__numbers {
+  width: 20px;
+  height: 20px;
+  @include center;
+  background-color: $color-primary;
+  color: white;
+  border-radius: 20px;
+  position: relative;
+  left: 10px;
 }

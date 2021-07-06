@@ -49,12 +49,38 @@ a {
 }
 
 /*Réservez le menu*/
-.title {
-  width: 240px;
+.divtitle {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 120px;
-  text-indent: -40px;
+  flex-direction: column;
+}
+
+.title {
+  margin-top: 40px;
+  width: 240px;
+  text-align: center;
+}
+
+.title__p {
+  width: 280px;
+  text-align: center;
+}
+
+.explorer-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.explorer-div__btn {
+  width: 218px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, #ff79da, #9356dc);
+  color: white;
+  border-radius: 30px;
 }
 /*# sourceMappingURL=style.css.map */

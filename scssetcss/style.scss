@@ -54,10 +54,30 @@ a {
 }
 
 /*Réservez le menu*/
-
+.divtitle{
+    @include center;
+    flex-direction: column;
+}
 .title {
+  margin-top: 40px;
   width: 240px;
-  @include center;
-  margin-left: 120px;
-  text-indent: -40px;
+  text-align: center;
+  &__p{
+      width: 280px;
+      text-align: center;
+}
+}
+
+.explorer-div{
+    @include center;
+    &__btn{
+        width: 218px;
+        height: 50px;
+        @include center;
+        background-image:  linear-gradient( to bottom right, $color-secondary,$color-primary);
+        color: white;
+        border-radius: 30px;
+    
+
+    }
 }

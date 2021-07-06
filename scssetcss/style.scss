@@ -1,0 +1,55 @@
+/*général*/
+
+$color-primary:#9356dc;
+$color-secondary:#ff79da;
+$color-tertiary:#99e2d0;
+a{
+    margin: 0;
+}
+@mixin center{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+@mixin displayflex{
+    display: flex;
+}
+
+/*font*/
+.bodyfont{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/*header*/
+.header{
+    height: 61px;
+    @include center;
+    
+    
+}
+.header__ohmyfoodimg{
+    width: 162px;
+    margin: 0px 100px 0px 100px;
+}
+.header__display{
+    display:none;
+}
+ 
+.parismap{
+    @include displayflex;
+    @include center;
+    background-color: #f2f2f2;
+    box-shadow: 2px 0px 0 0px black;
+    transition: box-shadow 0.3x ease, tranform 0.3s ease;
+
+&--margin{
+    margin-right: 16px;
+}
+}
+
+.parismap:active{
+    box-shadow: 0 0 0 black, inset 1px 4px 3px rgb(168, 163, 163);
+    transform: translate(0px, 6px);
+}

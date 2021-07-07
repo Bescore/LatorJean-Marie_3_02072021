@@ -150,4 +150,73 @@ a {
   position: relative;
   left: 10px;
 }
+
+.option:hover {
+  background-color: #f5edff;
+  cursor: pointer;
+}
+
+/*restaurants/section2*/
+.bloc-section-rest {
+  background-color: #f2f2f2;
+}
+
+.bloc-rest {
+  position: relative;
+  left: 20px;
+  top: 50px;
+  margin: 0;
+}
+
+.bloccentered {
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 1224px;
+}
+
+.new-text {
+  margin: -15px;
+  height: 30px;
+  width: 80px;
+  background-color: #99e2d0;
+  color: #008766;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 50px;
+  left: 110px;
+}
+
+.bloc-img {
+  height: 251px;
+  width: 335px;
+  border-radius: 18px;
+  background-color: white;
+  box-shadow: 1px 4px 5px 1px #c9c5c5;
+}
+
+.bloc-img__size {
+  height: 173px;
+  width: 335px;
+  border-top-right-radius: 18px;
+  border-top-left-radius: 20px;
+  object-fit: cover;
+}
+
+.bloc-caption {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 13px;
+  padding-right: 20px;
+  align-items: center;
+}
+
+.bold {
+  font-weight: bold;
+}
 /*# sourceMappingURL=style.css.map */

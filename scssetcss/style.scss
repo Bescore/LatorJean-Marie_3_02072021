@@ -7,6 +7,9 @@ $color-secondary: #ff79da;
 $color-tertiary: #99e2d0;
 $color-four: #f2f2f2;
 $color-grey: grey;
+$color-pink: #f5edff;
+$new-backcolor:#99e2d0;
+$new-fontcolor:#008766;
 a {
   margin: 0;
 }
@@ -138,10 +141,66 @@ a {
 }
 
 .option:hover{
-  background-color: $color-primary;
+  background-color: $color-pink;
   cursor: pointer;
 }
 
+/*restaurants/section2*/
 
-/*Restaurant/section 2*
+.bloc-section-rest{
+  background-color: $color-four;
+}
+.bloc-rest{
+  position:relative;
+  left: 20px;
+  top: 50px;
+  margin: 0;
+}
+.bloccentered{
+  display: flex;
+  @include center;
+  flex-direction: column;
+  height: 1224px;
 
+}
+
+.new-text{
+  margin: -15px;
+  height: 30px;
+  width: 80px;
+  background-color: $new-backcolor;
+  color: $new-fontcolor;
+  border-radius: 3px;
+  @include center;
+  position: relative;
+  top: 50px;
+  left: 110px;
+}
+.bloc-img{
+  
+  height:251px;
+  width: 335px;
+  border-radius: 18px;
+  background-color:white;
+  box-shadow: 1px 4px 5px 1px rgb(201, 197, 197);
+  &__size{
+    height: 173px;
+    width: 335px;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 20px;
+    object-fit: cover;
+
+  }
+}
+
+.bloc-caption{
+  @include displayflex;
+  justify-content: space-between;
+  padding-left: 13px;
+  padding-right: 20px;
+  align-items: center;
+
+}
+.bold{
+  font-weight: bold;
+}

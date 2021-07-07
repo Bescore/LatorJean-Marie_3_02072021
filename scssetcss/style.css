@@ -6,6 +6,7 @@
 
 a {
   margin: 0;
+  text-decoration: none;
 }
 
 /*font*/
@@ -106,7 +107,7 @@ a {
 
 .Fonctionne-text {
   margin-top: 50px;
-  margin-left: 40px;
+  margin-left: 20px;
   margin-bottom: 32px;
 }
 
@@ -169,7 +170,7 @@ a {
 
 .bloc-rest {
   position: relative;
-  left: 20px;
+  left: 00px;
   top: 50px;
   margin: 0;
 }
@@ -228,11 +229,16 @@ a {
   font-weight: bold;
 }
 
+.fa-heart:hover {
+  background-color: red;
+}
+
 /*footer*/
 .bloc-footer {
   background-color: #353535;
   color: #fff;
-  padding: 25px 0px 40px 40px;
+  padding: 25px 0px 40px 20px;
+  line-height: 5px;
 }
 
 .icondiv-flex {
@@ -248,5 +254,10 @@ a {
   height: 15px;
   width: 100px;
   margin-left: -7px;
+  margin-bottom: 10px;
+}
+
+.bloc-contact {
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */

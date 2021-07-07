@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   aria-hidden="true"
+   focusable="false"
+   data-prefix="fas"
+   data-icon="heart"
+   class="svg-inline--fa fa-heart fa-w-16"
+   role="img"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg19"
+   sodipodi:docname="heart-solidred.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs23" />
+  <sodipodi:namedview
+     id="namedview21"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.5800781"
+     inkscape:cx="256"
+     inkscape:cy="256"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg19" />
+  <path
+     fill="currentColor"
+     d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+     id="path17" />
+  <path
+     style="fill:#ff0000;stroke-width:0.63288"
+     d="m 248.89444,478.739 c -4.46182,-1.08159 -8.93998,-3.30553 -12.25438,-6.08576 -1.38141,-1.15879 -33.68043,-34.28884 -71.7756,-73.62234 C 126.7693,359.6974 82.627351,314.13004 66.771249,297.77009 34.533841,264.50828 31.349101,260.96147 24.434919,250.62052 -13.149133,194.40927 -5.9676325,118.57259 41.453646,70.902653 69.350976,42.859043 107.20109,29.150416 146.2436,32.949622 c 28.49496,2.772828 56.30349,14.564933 78.84046,33.432002 3.35915,2.812149 11.69309,10.879605 18.51987,17.927681 l 12.41232,12.814684 12.3928,-12.811956 c 6.81604,-7.046574 15.14267,-15.11697 18.50362,-17.934213 16.4178,-13.761867 36.99454,-24.416125 57.23374,-29.634585 52.03409,-13.416423 104.66306,4.483121 137.59426,46.796938 33.88682,43.541697 39.35511,103.651707 13.95378,153.386537 -3.98691,7.80622 -11.20468,18.65754 -16.94148,25.47008 -4.98182,5.91601 -198.82346,206.21604 -203.16205,209.93098 -7.26352,6.21944 -17.42287,8.65923 -26.69648,6.41123 z"
+     id="path178" />
+</svg>

@@ -74,6 +74,7 @@ a {
 
 .sectbackground {
   background-color: #f2f2f2;
+  height: 336px;
 }
 
 .explorer-div {
@@ -95,9 +96,14 @@ a {
 }
 
 /*NAV*/
+.navbloc {
+  height: 380px;
+}
+
 .Fonctionne-text {
   margin-top: 50px;
   margin-left: 20px;
+  margin-bottom: 32px;
 }
 
 #iconesize {

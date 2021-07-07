@@ -6,7 +6,7 @@ $color-primary: #9356dc;
 $color-secondary: #ff79da;
 $color-tertiary: #99e2d0;
 $color-four: #f2f2f2;
-$color-grey:grey;
+$color-grey: grey;
 a {
   margin: 0;
 }
@@ -73,6 +73,8 @@ a {
 }
 .sectbackground {
   background-color: $color-four;
+  height: 336px;
+
 }
 .explorer-div {
   @include center;
@@ -91,14 +93,18 @@ a {
   }
 }
 /*NAV*/
+.navbloc{
+  height: 380px;
+}
 .Fonctionne-text {
   margin-top: 50px;
   margin-left: 20px;
+  margin-bottom: 32px;
 }
-#iconesize{
-    margin: 20px;
-    margin-left: -10px;
-    color: $color-grey;
+#iconesize {
+  margin: 20px;
+  margin-left: -10px;
+  color: $color-grey;
 }
 .iconesize {
   margin: 20px;
@@ -108,7 +114,7 @@ a {
 .blocflex {
   @include displayflex;
   @include center;
-  margin-top: 20px
+  margin-top: 20px;
 }
 .option {
   @include center;
@@ -130,3 +136,12 @@ a {
   position: relative;
   left: 10px;
 }
+
+.option:hover{
+  background-color: $color-primary;
+  cursor: pointer;
+}
+
+
+/*Restaurant/section 2*
+

@@ -9,6 +9,10 @@ a {
   text-decoration: none;
 }
 
+.fa-heart {
+  color: red;
+}
+
 /*font*/
 .bodyfont {
   font-family: "Roboto", sans-serif;
@@ -229,8 +233,20 @@ a {
   font-weight: bold;
 }
 
-.fa-heart:hover {
-  background-color: red;
+.bloc-heart-relative {
+  position: relative;
+  right: 22px;
+}
+
+.bloc-heart-relative {
+  transform: scale(0%);
+  position: relative;
+  right: 22px;
+  transition: transform 1s;
+}
+
+.fa-heart:hover + .bloc-heart-relative {
+  transform: scale(1);
 }
 
 /*footer*/

@@ -15,6 +15,9 @@ a {
   margin: 0;
   text-decoration: none;
 }
+.fa-heart{
+  color: red;
+}
 @mixin center {
   display: flex;
   justify-content: center;
@@ -209,9 +212,21 @@ a {
 .bold {
   font-weight: bold;
 }
+.bloc-heart-relative{
+  position: relative;
+  right: 22px;
+  
+}
 
-.fa-heart:hover{
-  background-color: red;
+.bloc-heart-relative {
+  transform: scale(0%);
+  position: relative;
+  right: 22px;
+  transition: transform 1s;
+  
+}
+.fa-heart:hover + .bloc-heart-relative {
+  transform: scale(1);
 }
 
 /*footer*/

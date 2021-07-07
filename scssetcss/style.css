@@ -35,6 +35,8 @@ a {
 
 .header__display {
   display: none;
+  position: relative;
+  left: 10px;
 }
 
 /*paris belleville bouton*/
@@ -275,5 +277,9 @@ a {
 
 .bloc-contact {
   color: white;
+}
+
+.menu1 .header__display {
+  display: initial;
 }
 /*# sourceMappingURL=style.css.map */

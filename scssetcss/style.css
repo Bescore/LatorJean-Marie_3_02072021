@@ -282,4 +282,14 @@ a {
 .menu1 .header__display {
   display: initial;
 }
+
+.menu1 .bloc-jayimg {
+  width: 375px;
+  height: 300px;
+  margin-left: -8px;
+}
+
+.menu1 .bloc-palette {
+  display: flex;
+}
 /*# sourceMappingURL=style.css.map */

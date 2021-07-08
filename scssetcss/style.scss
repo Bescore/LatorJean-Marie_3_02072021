@@ -279,15 +279,20 @@ a {
     font-family: $font-famtext;
     box-sizing: border-box;
   }
-
+  html {
+    margin-left: 0;
+    padding: 0;
+  }
   /*header*/
   .header__display {
     display: initial;
   }
   /*img*/
   .bloc-jayimg {
-    width: 372px;
+    width: 375px;
     height: 300px;
+    box-sizing: border-box;
+    object-fit: fill;
   }
 
   /*title*/
@@ -300,10 +305,10 @@ a {
     background-color: $color-four;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
-    padding: 20px;
+    padding: 0px;
     position: relative;
     bottom: 40px;
-    margin-bottom: -40px;
+    margin-bottom: -80px;
   }
 
   .bloc-palette {

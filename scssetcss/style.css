@@ -291,13 +291,20 @@ a {
   box-sizing: border-box;
 }
 
+.menu1 html {
+  margin-left: 0;
+  padding: 0;
+}
+
 .menu1 .header__display {
   display: initial;
 }
 
 .menu1 .bloc-jayimg {
-  width: 372px;
+  width: 375px;
   height: 300px;
+  box-sizing: border-box;
+  object-fit: fill;
 }
 
 .menu1 h1 {
@@ -309,10 +316,10 @@ a {
   background-color: #f2f2f2;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
-  padding: 20px;
+  padding: 0px;
   position: relative;
   bottom: 40px;
-  margin-bottom: -40px;
+  margin-bottom: -80px;
 }
 
 .menu1 .bloc-palette {

@@ -8,16 +8,16 @@ $color-tertiary: #99e2d0;
 $color-four: #f2f2f2;
 $color-grey: grey;
 $color-pink: #f5edff;
-$color-white:#fff;
+$color-white: #fff;
 $new-backcolor: #99e2d0;
 $new-fontcolor: #008766;
 $footer-color: #353535;
-$font-famtext:"Roboto", sans-serif;
+$font-famtext: "Roboto", sans-serif;
 a {
   margin: 0;
   text-decoration: none;
 }
-.fa-heart{
+.fa-heart {
   color: red;
 }
 @mixin center {
@@ -27,6 +27,19 @@ a {
 }
 @mixin displayflex {
   display: flex;
+}
+@mixin purple-btn {
+  width: 218px;
+  height: 50px;
+  @include center;
+  background-image: linear-gradient(
+    to bottom right,
+    $color-secondary,
+    $color-primary
+  );
+  color: $color-white;
+  border-radius: 30px;
+  box-shadow: 1px 4px 5px 1px rgb(201, 197, 197);
 }
 
 /*font*/
@@ -48,7 +61,7 @@ a {
 .header__display {
   display: none;
   position: relative;
-  left:22px;
+  left: 22px;
 }
 /*paris belleville bouton*/
 .parismap {
@@ -216,10 +229,9 @@ a {
 .bold {
   font-weight: bold;
 }
-.bloc-heart-relative{
+.bloc-heart-relative {
   position: relative;
   right: 22px;
-  
 }
 
 .bloc-heart-relative {
@@ -227,7 +239,6 @@ a {
   position: relative;
   right: 22px;
   transition: transform 500ms;
-  
 }
 .fa-heart:hover + .bloc-heart-relative {
   transform: scale(1);
@@ -244,7 +255,7 @@ a {
 .icondiv-flex {
   @include displayflex;
   align-items: center;
-  
+
   &__marg {
     margin-right: 10px;
   }
@@ -257,68 +268,73 @@ a {
   margin-bottom: 10px;
 }
 
-.bloc-contact{
-  color:$color-white;
+.bloc-contact {
+  color: $color-white;
 }
 
 //////////////////////*menu1*////////////////////////////
 
-.menu1{
-  *{
+.menu1 {
+  * {
     font-family: $font-famtext;
   }
 
   /*header*/
-  .header__display{
+  .header__display {
     display: initial;
   }
   /*img*/
-  .bloc-jayimg{
+  .bloc-jayimg {
     width: 375px;
     height: 300px;
     margin-left: -8px;
   }
   /*title*/
-  h1{
-    font-family: 'Shrikhand', cursive;
+  h1 {
+    font-family: "Shrikhand", cursive;
     font-size: 1.8rem;
   }
   /*section-menu1*/
-  .bloc-sectionmenu1{
+  .bloc-sectionmenu1 {
     background-color: $color-four;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
     padding: 20px;
     position: relative;
     bottom: 40px;
-    margin: -8px
+    margin: -8px;
+    margin-bottom: -40px;
   }
-  
-  .bloc-palette{
+
+  .bloc-palette {
     @include displayflex;
     align-items: center;
     justify-content: space-around;
   }
 
-  .entree_text{
+  .titremenu_text {
     border-bottom: 3px solid $color-tertiary;
-    width:40px;
+    width: 40px;
+    margin-top: 35px;
+    margin-left: 5px;
   }
 
-  .bloc-pick{
+  .bloc-pick {
     @include displayflex;
-    background-color:$color-white ;
+    background-color: $color-white;
     border-radius: 15px;
     box-shadow: 1px 2px 5px 1px rgb(201, 197, 197);
     overflow: hidden;
-    &__prix{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    &__prix {
       @include displayflex;
       justify-content: space-between;
-      width:345px;
-      padding: 8px
+      width: 345px;
+      padding: 8px;
     }
   }
-  .bloc-checked{
+  .bloc-checked {
     @include center;
     color: $color-white;
     background-color: $color-tertiary;
@@ -328,24 +344,36 @@ a {
     transition: 500ms;
     width: 60px;
     transition: 500ms;
-    transform:  translatex(40px);
-    flex-shrink:2 ;
+    transform: translatex(40px);
+    flex-shrink: 2;
   }
   @keyframes rota {
-    from{transform: rotate(-120deg);}
-    to{transform: rotate(0deg);}
+    from {
+      transform: rotate(-120deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
   }
-  
-  .bloc-checked__rotate{
+
+  .bloc-checked__rotate {
     transition: 500ms;
-    animation: 1s rota infinite ;
+    animation: 1s rota infinite;
   }
-  
+
   .bloc-pick__prix:hover + .bloc-checked {
     transform: translatex(0px);
-    flex-shrink: 0
-    
+    flex-shrink: 0;
   }
-  
-  
+
+  .order-btn {
+    @include purple-btn;
+  }
+  .centered-btn {
+    @include center;
+    margin: 40px;
+  }
+  .bloc-footer {
+    margin: -8px;
+  }
 }

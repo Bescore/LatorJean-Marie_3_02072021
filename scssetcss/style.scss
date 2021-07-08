@@ -249,7 +249,7 @@ a {
 .bloc-footer {
   background-color: $footer-color;
   color: #fff;
-  padding: 25px 0px 40px 20px;
+  padding: 25px 0px 40px 0px;
   line-height: 5px;
 }
 .icondiv-flex {
@@ -282,6 +282,8 @@ a {
   html {
     margin-left: 0;
     padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
   }
   /*header*/
   .header__display {
@@ -289,10 +291,10 @@ a {
   }
   /*img*/
   .bloc-jayimg {
-    width: 375px;
+    width: 370px;
     height: 300px;
     box-sizing: border-box;
-    object-fit: fill;
+    overflow: hidden;
   }
 
   /*title*/
@@ -305,10 +307,11 @@ a {
     background-color: $color-four;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
-    padding: 0px;
+    padding: 20px;
     position: relative;
     bottom: 40px;
-    margin-bottom: -80px;
+    box-sizing: border-box;
+    margin-bottom: -40px;
   }
 
   .bloc-palette {
@@ -399,4 +402,5 @@ a {
     @include center;
     margin: 40px;
   }
+  
 }

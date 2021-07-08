@@ -255,7 +255,7 @@ a {
 .bloc-footer {
   background-color: #353535;
   color: #fff;
-  padding: 25px 0px 40px 20px;
+  padding: 25px 0px 40px 0px;
   line-height: 5px;
 }
 
@@ -294,6 +294,8 @@ a {
 .menu1 html {
   margin-left: 0;
   padding: 0;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 .menu1 .header__display {
@@ -301,10 +303,10 @@ a {
 }
 
 .menu1 .bloc-jayimg {
-  width: 375px;
+  width: 370px;
   height: 300px;
   box-sizing: border-box;
-  object-fit: fill;
+  overflow: hidden;
 }
 
 .menu1 h1 {
@@ -316,10 +318,11 @@ a {
   background-color: #f2f2f2;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
-  padding: 0px;
+  padding: 20px;
   position: relative;
   bottom: 40px;
-  margin-bottom: -80px;
+  box-sizing: border-box;
+  margin-bottom: -40px;
 }
 
 .menu1 .bloc-palette {

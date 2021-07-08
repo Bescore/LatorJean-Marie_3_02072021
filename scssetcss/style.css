@@ -296,11 +296,9 @@ a {
 }
 
 .menu1 .bloc-jayimg {
-  width: 360px;
+  width: 374px;
   height: 300px;
-  object-fit: cover;
-  margin: 0;
-  padding: 0;
+  margin: -8px;
 }
 
 .menu1 h1 {
@@ -315,7 +313,7 @@ a {
   padding: 20px;
   position: relative;
   bottom: 40px;
-  margin: -2%;
+  margin: 0;
   margin-bottom: -40px;
 }
 

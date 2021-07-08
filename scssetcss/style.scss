@@ -16,6 +16,7 @@ $font-famtext: "Roboto", sans-serif;
 a {
   margin: 0;
   text-decoration: none;
+  color: black;
 }
 .fa-heart {
   color: red;
@@ -249,7 +250,7 @@ a {
 .bloc-footer {
   background-color: $footer-color;
   color: #fff;
-  padding: 25px 0px 40px 0px;
+  padding: 25px 0px 40px 20px;
   line-height: 5px;
 }
 .icondiv-flex {
@@ -402,5 +403,4 @@ a {
     @include center;
     margin: 40px;
   }
-  
 }

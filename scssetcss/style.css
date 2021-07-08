@@ -296,9 +296,8 @@ a {
 }
 
 .menu1 .bloc-jayimg {
-  width: 374px;
+  width: 375px;
   height: 300px;
-  margin: -8px;
 }
 
 .menu1 h1 {
@@ -313,7 +312,6 @@ a {
   padding: 20px;
   position: relative;
   bottom: 40px;
-  margin: -8px;
   margin-bottom: -40px;
 }
 
@@ -423,10 +421,5 @@ a {
   justify-content: center;
   align-items: center;
   margin: 40px;
-}
-
-.menu1 .bloc-footer {
-  margin-left: -8px;
-  margin-bottom: -8px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -121,7 +121,7 @@ a {
     border-radius: 30px;
     box-shadow: 1px 4px 5px 1px rgb(201, 197, 197);
   }
-  .explorer-div__btn:hover{
+  .explorer-div__btn:hover {
     transform: scale(1.2);
   }
 }
@@ -255,6 +255,7 @@ a {
   background-color: $footer-color;
   color: #fff;
   padding: 25px 0px 40px 20px;
+  margin: 0;
   line-height: 5px;
 }
 .icondiv-flex {
@@ -404,8 +405,8 @@ a {
     @include purple-btn;
     transition: 500ms;
   }
-  .order-btn:hover{
-    transform: scale(1.2)
+  .order-btn:hover {
+    transform: scale(1.2);
   }
   .centered-btn {
     @include center;

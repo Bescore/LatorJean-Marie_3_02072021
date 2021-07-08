@@ -46,7 +46,7 @@ a {
 .bodyfont {
   font-family: $font-famtext;
   box-sizing: border-box;
-  margin: 0;
+  margin: 0px;
 }
 
 /*header*/
@@ -286,10 +286,10 @@ a {
   }
   /*img*/
   .bloc-jayimg {
-    width: 374px;
+    width: 372px;
     height: 300px;
   }
-  
+
   /*title*/
   h1 {
     font-family: "Shrikhand", cursive;
@@ -333,17 +333,16 @@ a {
       width: 345px;
       padding: 8px;
       text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-    flex-shrink: 1;
-    flex-grow: 1;
+      overflow: hidden;
+      white-space: nowrap;
+      flex-shrink: 1;
+      flex-grow: 1;
     }
   }
-  .break-text{
-    overflow:hidden ;
+  .break-text {
+    overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrap
-    
+    white-space: nowrap;
   }
   .bloc-checked {
     @include center;
@@ -377,16 +376,16 @@ a {
     flex-shrink: 0;
   }
 
-  .break-text{
+  .break-text {
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
     flex-shrink: 1;
-    flex-grow: 1; 
+    flex-grow: 1;
   }
-  .bloc-prices{
+  .bloc-prices {
     display: flex;
-    align-items: flex-end
+    align-items: flex-end;
   }
   .order-btn {
     @include purple-btn;
@@ -395,5 +394,4 @@ a {
     @include center;
     margin: 40px;
   }
-  
 }

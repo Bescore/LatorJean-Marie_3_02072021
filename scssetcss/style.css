@@ -17,7 +17,7 @@ a {
 .bodyfont {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
-  margin: 0;
+  margin: 0px;
 }
 
 /*header*/
@@ -296,7 +296,7 @@ a {
 }
 
 .menu1 .bloc-jayimg {
-  width: 374px;
+  width: 372px;
   height: 300px;
 }
 

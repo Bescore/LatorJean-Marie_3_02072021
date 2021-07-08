@@ -277,6 +277,7 @@ a {
 .menu1 {
   * {
     font-family: $font-famtext;
+    box-sizing: border-box;
   }
 
   /*header*/
@@ -285,9 +286,10 @@ a {
   }
   /*img*/
   .bloc-jayimg {
-    width: 375px;
+    width: 374px;px;
     height: 300px;
     margin-left: -8px;
+    object-fit: cover;
   }
   /*title*/
   h1 {

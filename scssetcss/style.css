@@ -288,6 +288,7 @@ a {
 
 .menu1 * {
   font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
 }
 
 .menu1 .header__display {
@@ -295,9 +296,10 @@ a {
 }
 
 .menu1 .bloc-jayimg {
-  width: 375px;
+  width: 374px;
   height: 300px;
   margin-left: -8px;
+  object-fit: cover;
 }
 
 .menu1 h1 {

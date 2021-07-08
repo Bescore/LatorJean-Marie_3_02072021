@@ -344,6 +344,17 @@ a {
   justify-content: space-between;
   width: 345px;
   padding: 8px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+
+.menu1 .break-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .menu1 .bloc-checked {
@@ -358,8 +369,8 @@ a {
   transition: 500ms;
   width: 60px;
   transition: 500ms;
-  transform: translatex(40px);
-  flex-shrink: 2;
+  transform: translatex(60px);
+  flex-shrink: 3;
 }
 
 @keyframes rota {
@@ -379,6 +390,19 @@ a {
 .menu1 .bloc-pick__prix:hover + .bloc-checked {
   transform: translatex(0px);
   flex-shrink: 0;
+}
+
+.menu1 .break-text {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+
+.menu1 .bloc-prices {
+  display: flex;
+  align-items: flex-end;
 }
 
 .menu1 .order-btn {

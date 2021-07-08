@@ -332,7 +332,18 @@ a {
       justify-content: space-between;
       width: 345px;
       padding: 8px;
+      text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    flex-shrink: 1;
+    flex-grow: 1;
     }
+  }
+  .break-text{
+    overflow:hidden ;
+    text-overflow: ellipsis;
+    white-space: nowrap
+    
   }
   .bloc-checked {
     @include center;
@@ -344,8 +355,8 @@ a {
     transition: 500ms;
     width: 60px;
     transition: 500ms;
-    transform: translatex(40px);
-    flex-shrink: 2;
+    transform: translatex(60px);
+    flex-shrink: 3;
   }
   @keyframes rota {
     from {
@@ -366,6 +377,17 @@ a {
     flex-shrink: 0;
   }
 
+  .break-text{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    flex-shrink: 1;
+    flex-grow: 1; 
+  }
+  .bloc-prices{
+    display: flex;
+    align-items: flex-end
+  }
   .order-btn {
     @include purple-btn;
   }

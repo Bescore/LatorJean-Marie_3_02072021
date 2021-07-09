@@ -19,7 +19,7 @@ a {
   color: black;
 }
 .fa-heart {
-  color: red;
+  color :$color-secondary;
 }
 @mixin center {
   display: flex;

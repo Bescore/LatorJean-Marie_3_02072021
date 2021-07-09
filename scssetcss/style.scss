@@ -512,14 +512,12 @@ a {
   }
   .bloc-checked__rotate {
     transition: 500ms;
-    transform: rotate(-120deg);
+    transform: rotate(-180deg);
     
   }
 
-  .label:checked .bloc-checked__rotate{
-    transform: rotate(50deg);
-  }
-  .bloc-pick__prix:hover + .bloc-checked {
+  
+  .bloc-pick__prix:hover ~ .bloc-checked  {
     transform: translatex(0px);
     flex-shrink: 0;
     

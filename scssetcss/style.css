@@ -549,14 +549,10 @@ a {
 
 .menu1 .bloc-checked__rotate {
   transition: 500ms;
-  transform: rotate(-120deg);
+  transform: rotate(-180deg);
 }
 
-.menu1 .label:checked .bloc-checked__rotate {
-  transform: rotate(50deg);
-}
-
-.menu1 .bloc-pick__prix:hover + .bloc-checked {
+.menu1 .bloc-pick__prix:hover ~ .bloc-checked {
   transform: translatex(0px);
   flex-shrink: 0;
 }

@@ -407,6 +407,7 @@ a {
   .order-btn {
     @include purple-btn;
     transition: 500ms;
+    border: none;
   }
   .order-btn:hover {
     transform: scale(1.2);

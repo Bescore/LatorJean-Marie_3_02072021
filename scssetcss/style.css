@@ -307,7 +307,6 @@ a {
 
 /*LOADING SPINNER*/
 .sect-spin {
-  display: none;
   position: fixed;
   display: flex;
   justify-content: center;
@@ -316,8 +315,18 @@ a {
   bottom: 0;
   left: 0;
   right: 0;
-  animation: 5s  nowyouseeme 1;
+  animation: 3s  nowyouseeme 1, 3s fade;
   transform: scale(0);
+  background-color: white;
+}
+
+@keyframes fade {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 
 .first-layer-spinner {
@@ -498,18 +507,13 @@ a {
   flex-shrink: 3;
 }
 
-@keyframes rota {
-  from {
-    transform: rotate(-120deg);
-  }
-  to {
-    transform: rotate(0deg);
-  }
-}
-
 .menu1 .bloc-checked__rotate {
   transition: 500ms;
-  animation: 1s rota infinite;
+  transition: rotate(-120deg);
+}
+
+.menu1 .bloc-pick__prix:hover + .bloc-checked__rotate {
+  transition: rotate(0deg);
 }
 
 .menu1 .bloc-pick__prix:hover + .bloc-checked {

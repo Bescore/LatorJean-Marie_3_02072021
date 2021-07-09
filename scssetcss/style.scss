@@ -295,19 +295,26 @@ a {
 }
 /*LOADING SPINNER*/
 .sect-spin{
-  display: none;
   position: fixed;
   @include center;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  animation:  5s  nowyouseeme 1;
+  animation: 3s  nowyouseeme 1, 3s fade ;
   transform: scale(0);
-  
-  
+  background-color: white;
 }
 
+@keyframes fade { 
+  from{
+    opacity: 1;
+  }
+  to{
+    opacity: 0;
+  }
+  
+}
 .first-layer-spinner{
   border-left: 10px solid $color-primary ;
   width: 150px;
@@ -325,6 +332,7 @@ a {
   @include center;
   animation: 2s spinner linear  infinite;
   
+  
 }
 .third-layer-spinner{
   border-right: 10px solid $color-tertiary ;
@@ -333,6 +341,7 @@ a {
   border-radius: 50%;
   @include center;
   animation: 3s spinner2 linear infinite;
+  
   
 }
 .size-img-spinner{
@@ -471,18 +480,14 @@ a {
     transform: translatex(60px);
     flex-shrink: 3;
   }
-  @keyframes rota {
-    from {
-      transform: rotate(-120deg);
-    }
-    to {
-      transform: rotate(0deg);
-    }
-  }
+  
 
   .bloc-checked__rotate {
     transition: 500ms;
-    animation: 1s rota infinite;
+    transition: rotate(-120deg);
+  }
+  .bloc-pick__prix:hover + .bloc-checked__rotate{
+    transition: rotate(0deg);
   }
 
   .bloc-pick__prix:hover + .bloc-checked {

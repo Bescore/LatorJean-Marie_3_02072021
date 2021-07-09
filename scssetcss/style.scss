@@ -64,6 +64,20 @@ a {
   position: relative;
   left: 22px;
 }
+.bloc-input{
+  outline: none;
+  border: none;
+  background-color: $color-four;
+  height: 35px;
+  margin-left: 10px;
+}
+::placeholder{
+  font-weight: bold;
+  color: black;
+}
+.bloc-input:hover{
+  background-color: #e6e0e0; 
+}
 /*paris belleville bouton*/
 .parismap {
   @include displayflex;
@@ -71,13 +85,14 @@ a {
   background-color: $color-four;
   box-shadow: 0px 0px 0px 0px black;
   transition: box-shadow 0.3x ease, tranform 0.3s ease;
+  height: 50px;
 
   &--margin {
-    margin-right: 16px;
+    margin-left: 38px;
   }
 }
 
-.parismap:active {
+.parismap:hover {
   box-shadow: 0 0 0 black, inset 1px 4px 3px rgb(99, 97, 97);
   transform: translate(0px, 6px);
   background-color: #e6e0e0;
@@ -291,7 +306,7 @@ a {
     box-sizing: border-box;
   }
   .body{
-    width: 375px;
+     min-width: 375px;
   }
   /*header*/
   .header__display {
@@ -399,6 +414,7 @@ a {
   .bloc-pick__prix:hover + .bloc-checked {
     transform: translatex(0px);
     flex-shrink: 0;
+    
   }
 
   .break-text {

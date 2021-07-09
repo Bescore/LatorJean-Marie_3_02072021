@@ -485,6 +485,10 @@ a {
   flex-grow: 1;
 }
 
+.menu1 :checked + label {
+  background-color: violet;
+}
+
 .menu1 .break-text {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -507,13 +511,49 @@ a {
   flex-shrink: 3;
 }
 
-.menu1 .bloc-checked__rotate {
-  transition: 500ms;
-  transition: rotate(-120deg);
+.menu1 #check1 {
+  display: none;
 }
 
-.menu1 .bloc-pick__prix:hover + .bloc-checked__rotate {
-  transition: rotate(0deg);
+.menu1 #check2 {
+  display: none;
+}
+
+.menu1 #check3 {
+  display: none;
+}
+
+.menu1 #check4 {
+  display: none;
+}
+
+.menu1 #check5 {
+  display: none;
+}
+
+.menu1 #check6 {
+  display: none;
+}
+
+.menu1 #check7 {
+  display: none;
+}
+
+.menu1 #check8 {
+  display: none;
+}
+
+.menu1 #check9 {
+  display: none;
+}
+
+.menu1 .bloc-checked__rotate {
+  transition: 500ms;
+  transform: rotate(-120deg);
+}
+
+.menu1 .label:checked .bloc-checked__rotate {
+  transform: rotate(50deg);
 }
 
 .menu1 .bloc-pick__prix:hover + .bloc-checked {

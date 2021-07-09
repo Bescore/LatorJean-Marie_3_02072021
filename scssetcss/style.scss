@@ -462,6 +462,9 @@ a {
       flex-grow: 1;
     }
   }
+  :checked + label {
+    background-color: violet;
+  }
   .break-text {
     overflow: hidden;
     text-overflow: ellipsis;
@@ -480,16 +483,42 @@ a {
     transform: translatex(60px);
     flex-shrink: 3;
   }
-  
-
+  #check1{
+  display: none;
+  }
+  #check2{
+  display: none;
+  }
+  #check3{
+  display: none;
+  }
+  #check4{
+    display: none;
+  }
+  #check5{
+    display: none;
+  }
+  #check6{
+    display: none;
+  }
+  #check7{
+    display: none;
+  }
+  #check8{
+    display: none;
+  }
+  #check9{
+    display: none;
+  }
   .bloc-checked__rotate {
     transition: 500ms;
-    transition: rotate(-120deg);
-  }
-  .bloc-pick__prix:hover + .bloc-checked__rotate{
-    transition: rotate(0deg);
+    transform: rotate(-120deg);
+    
   }
 
+  .label:checked .bloc-checked__rotate{
+    transform: rotate(50deg);
+  }
   .bloc-pick__prix:hover + .bloc-checked {
     transform: translatex(0px);
     flex-shrink: 0;

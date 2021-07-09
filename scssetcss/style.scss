@@ -17,6 +17,8 @@ a {
   margin: 0;
   text-decoration: none;
   color: black;
+  outline: none;
+  border: none;
 }
 .fa-heart {
   color :$color-secondary;
@@ -291,6 +293,78 @@ a {
 .bloc-contact {
   color: $color-white;
 }
+/*LOADING SPINNER*/
+.sect-spin{
+  display: none;
+  position: fixed;
+  @include center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  animation:  5s  nowyouseeme 1;
+  transform: scale(0);
+  
+  
+}
+
+.first-layer-spinner{
+  border-left: 10px solid $color-primary ;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  @include center;
+  animation: 3s spinner2 linear infinite;
+}
+
+.second-layer-spinner{
+  border-top: 10px solid $color-secondary ;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  @include center;
+  animation: 2s spinner linear  infinite;
+  
+}
+.third-layer-spinner{
+  border-right: 10px solid $color-tertiary ;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  @include center;
+  animation: 3s spinner2 linear infinite;
+  
+}
+.size-img-spinner{
+  width: 80px;
+  height: 80px;
+}
+
+@keyframes spinner{
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spinner2{
+  
+  to{
+    transform: rotate(-360deg);
+  }
+}
+
+
+
+@keyframes nowyouseeme{
+  from {
+    transform: scale(1);
+  }
+  to{
+      transform: scale(1);
+  }
+}
+
+
 
 //////////////////////*menu1*////////////////////////////
 

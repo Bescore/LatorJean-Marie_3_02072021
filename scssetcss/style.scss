@@ -285,11 +285,14 @@ a {
     font-family: $font-famtext;
     box-sizing: border-box;
   }
-  html {
+  html{
     margin-left: 0;
     padding: 0;
     overflow: hidden;
     box-sizing: border-box;
+  }
+  .body{
+    width: 375px;
   }
   /*header*/
   .header__display {

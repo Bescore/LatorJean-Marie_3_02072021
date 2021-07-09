@@ -305,6 +305,10 @@ a {
   box-sizing: border-box;
 }
 
+.menu1 .body {
+  width: 375px;
+}
+
 .menu1 .header__display {
   display: initial;
 }

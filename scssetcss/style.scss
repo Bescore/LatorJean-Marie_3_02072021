@@ -533,7 +533,7 @@ a {
   .bloc-palette {
     @include displayflex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .titremenu_text {

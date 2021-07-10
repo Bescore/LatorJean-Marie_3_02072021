@@ -555,7 +555,7 @@ a {
 .menu1 .bloc-palette {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .menu1 .titremenu_text {

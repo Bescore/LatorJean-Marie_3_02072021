@@ -453,7 +453,7 @@ a {
 .menu1 .bloc-palette {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .menu1 .titremenu_text {
@@ -550,7 +550,7 @@ a {
 }
 
 .menu1 .bloc-checked__rotate {
-  transition: 500ms;
+  transition: 700ms;
   transform: rotate(-180deg);
 }
 

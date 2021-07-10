@@ -423,7 +423,7 @@ a {
   .bloc-palette {
     @include displayflex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .titremenu_text {
@@ -459,7 +459,6 @@ a {
   }
  
 
-  
   
   .break-text {
     overflow: hidden;
@@ -511,7 +510,7 @@ a {
     display: none;
   }
   .bloc-checked__rotate {
-    transition: 500ms;
+    transition: 700ms;
     transform: rotate(-180deg);
     
   }

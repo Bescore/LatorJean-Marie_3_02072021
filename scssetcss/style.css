@@ -12,10 +12,6 @@ a {
   border: none;
 }
 
-.fa-heart {
-  color: #ff79da;
-}
-
 /*font*/
 .bodyfont {
   font-family: "Roboto", sans-serif;
@@ -255,13 +251,13 @@ a {
 
 .bloc-heart-relative {
   position: relative;
-  right: 22px;
+  right: 30px;
 }
 
 .bloc-heart-relative {
   transform: scale(0);
   position: relative;
-  right: 22px;
+  right: 31px;
   transition: transform 500ms;
 }
 

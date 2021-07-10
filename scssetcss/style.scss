@@ -20,9 +20,7 @@ a {
   outline: none;
   border: none;
 }
-.fa-heart {
-  color: $color-secondary;
-}
+
 @mixin center {
   display: flex;
   justify-content: center;
@@ -249,13 +247,13 @@ a {
 }
 .bloc-heart-relative {
   position: relative;
-  right: 22px;
+  right: 30px;
 }
 
 .bloc-heart-relative {
   transform: scale(0);
   position: relative;
-  right: 22px;
+  right: 31px;
   transition: transform 500ms;
   
 }

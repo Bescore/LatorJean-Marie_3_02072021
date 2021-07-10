@@ -431,7 +431,7 @@ a {
   }
 }
 
-/*media querys destop*/
+/*media querys desktop*/
 @media screen and (min-width: 1024px) {
   .navbloc {
     height: 200px;
@@ -499,6 +499,7 @@ a {
   /*title*/
   /*section-menu1*/
   /*loading menu*/
+  /*média querys menu*/
 }
 
 .menu1 * {
@@ -528,7 +529,7 @@ a {
 }
 
 .menu1 .bloc-jayimg {
-  width: 370px;
+  width: max-content;
   height: 300px;
   box-sizing: border-box;
   overflow: hidden;
@@ -712,7 +713,7 @@ a {
 }
 
 .menu1 .anim-menu1 {
-  animation: 5s 1s   loadpage 1 forwards;
+  animation: 5s 1s loadpage 1 forwards;
   opacity: 0;
 }
 
@@ -724,5 +725,19 @@ a {
 .menu1 .anim-menu3 {
   animation: 5s 3s loadpage 1 forwards;
   opacity: 0;
+}
+
+@media screen and (min-width: 375px) {
+  .menu1 .figimg {
+    margin: auto;
+    width: auto;
+  }
+  .menu1 .bloc-jayimg {
+    width: max-content;
+    height: 300px;
+  }
+  .menu1 .bloc-pick {
+    margin: 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

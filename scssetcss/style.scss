@@ -553,3 +553,31 @@ a {
     margin: 40px;
   }
 }
+
+/*loading progressif*/
+
+
+@keyframes loadpage{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+.anim-menu1{
+  
+  animation:  5s 1s   loadpage 1 forwards;
+  opacity:0;
+}
+.anim-menu2{
+  animation: 5s 2s loadpage 1 forwards;
+  opacity: 0;
+
+}
+.anim-menu3{
+  animation:   5s 3s loadpage 1 forwards;
+  opacity: 0;
+  
+}

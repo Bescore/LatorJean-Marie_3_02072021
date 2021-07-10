@@ -15,6 +15,7 @@ $footer-color: #353535;
 $font-famtext: "Roboto", sans-serif;
 a {
   margin: 0;
+  padding: 0;
   text-decoration: none;
   color: black;
   outline: none;
@@ -361,6 +362,132 @@ a {
   }
 }
 
+/*media querys acceuil*/
+
+
+@media screen and (min-width:400px) and (max-width:767px){
+  .Fonctionne-text {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    @include displayflex;
+    justify-content: center;
+  }
+  .bloc-rest{
+    @include displayflex;
+    justify-content: center;
+    align-items: center;
+    position: initial;
+  }
+
+  .bloc-footer {
+    background-color: $footer-color;
+    color: #fff;
+    padding: 25px 0px 40px 20px;
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+  .bloc-rest{
+    @include displayflex;
+    justify-content: center;
+    align-items: center;
+    position: initial;
+  }
+
+  .Fonctionne-text {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    @include displayflex;
+    justify-content: center;
+  }
+
+  .bloc-footer {
+    background-color: $footer-color;
+    color: #fff;
+    padding: 25px 0px 40px 20px;
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+/*media querys destop*/
+
+@media screen and (min-width: 1024px){
+  
+
+  .navbloc {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center
+  }
+.flexthem{
+  @include displayflex;
+  justify-content: center;
+  align-items: center;
+}
+  .Fonctionne-text {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    @include displayflex;
+    justify-content: center;
+    
+  }
+  .bloc-rest{
+    @include displayflex;
+    justify-content: center;
+    align-items: center;
+    position: initial;
+  }
+  .bloccentered {
+    display: flex;
+    @include center;
+    flex-direction: initial;
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .bloc-img {
+    margin: 20px;
+    height: 251px;
+    width: 335px;
+    border-radius: 18px;
+    background-color: white;
+    box-shadow: 1px 4px 5px 1px rgb(201, 197, 197);
+  
+}
+.new-text {
+   top: 20px;
+  left: 110px;
+  margin: -40px;
+  
+}
+.bloc-footer {
+  background-color: $footer-color;
+  color: #fff;
+  padding: 25px 0px 40px 20px;
+  margin:0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+}
+
 //////////////////////*menu1*////////////////////////////
 
 .menu1 {
@@ -574,10 +701,5 @@ a {
   opacity: 0;
   
 }
-
-
-
-/*media querys menu*/
-
 
 }

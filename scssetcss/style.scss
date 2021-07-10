@@ -21,7 +21,7 @@ a {
   border: none;
 }
 .fa-heart {
-  color :$color-secondary;
+  color: $color-secondary;
 }
 @mixin center {
   display: flex;
@@ -66,19 +66,19 @@ a {
   position: relative;
   left: 22px;
 }
-.bloc-input{
+.bloc-input {
   outline: none;
   border: none;
   background-color: $color-four;
   height: 35px;
   margin-left: 10px;
 }
-::placeholder{
+::placeholder {
   font-weight: bold;
   color: black;
 }
-.bloc-input:hover{
-  background-color: #e6e0e0; 
+.bloc-input:hover {
+  background-color: #e6e0e0;
 }
 /*paris belleville bouton*/
 .parismap {
@@ -257,13 +257,14 @@ a {
 }
 
 .bloc-heart-relative {
-  transform: scale(0%);
+  transform: scale(0);
   position: relative;
   right: 22px;
   transition: transform 500ms;
+  
 }
 .fa-heart:hover + .bloc-heart-relative {
-  transform: scale(1);
+  transform: scale(100%);
 }
 
 /*footer*/
@@ -294,29 +295,28 @@ a {
   color: $color-white;
 }
 /*LOADING SPINNER*/
-.sect-spin{
+.sect-spin {
   position: fixed;
   @include center;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  animation: 3s  nowyouseeme 1, 3s fade ;
+  animation: 3s nowyouseeme 1, 3s fade;
   transform: scale(0);
   background-color: white;
 }
 
-@keyframes fade { 
-  from{
+@keyframes fade {
+  from {
     opacity: 1;
   }
-  to{
+  to {
     opacity: 0;
   }
-  
 }
-.first-layer-spinner{
-  border-left: 10px solid $color-primary ;
+.first-layer-spinner {
+  border-left: 10px solid $color-primary;
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -324,56 +324,47 @@ a {
   animation: 3s spinner2 linear infinite;
 }
 
-.second-layer-spinner{
-  border-top: 10px solid $color-secondary ;
+.second-layer-spinner {
+  border-top: 10px solid $color-secondary;
   width: 130px;
   height: 130px;
   border-radius: 50%;
   @include center;
-  animation: 2s spinner linear  infinite;
-  
-  
+  animation: 2s spinner linear infinite;
 }
-.third-layer-spinner{
-  border-right: 10px solid $color-tertiary ;
+.third-layer-spinner {
+  border-right: 10px solid $color-tertiary;
   width: 110px;
   height: 110px;
   border-radius: 50%;
   @include center;
   animation: 3s spinner2 linear infinite;
-  
-  
 }
-.size-img-spinner{
+.size-img-spinner {
   width: 80px;
   height: 80px;
 }
 
-@keyframes spinner{
-  to{
+@keyframes spinner {
+  to {
     transform: rotate(360deg);
   }
 }
 
-@keyframes spinner2{
-  
-  to{
+@keyframes spinner2 {
+  to {
     transform: rotate(-360deg);
   }
 }
 
-
-
-@keyframes nowyouseeme{
+@keyframes nowyouseeme {
   from {
     transform: scale(1);
   }
-  to{
-      transform: scale(1);
+  to {
+    transform: scale(1);
   }
 }
-
-
 
 //////////////////////*menu1*////////////////////////////
 
@@ -382,26 +373,26 @@ a {
     font-family: $font-famtext;
     box-sizing: border-box;
   }
-  html{
+  html {
     margin-left: 0;
     padding: 0;
     overflow: hidden;
     box-sizing: border-box;
   }
-  .body{
-     min-width: 375px;
+  .body {
+    min-width: 375px;
   }
   /*header*/
   .header__display {
     display: initial;
   }
   /*figimg*/
-  .figimg{
+  .figimg {
     width: 370px;
     height: 300px;
     object-fit: cover;
     @include center;
-    margin:auto;
+    margin: auto;
   }
   /*img*/
   .bloc-jayimg {
@@ -453,22 +444,29 @@ a {
     &__prix {
       @include displayflex;
       justify-content: space-between;
-      width: 345px;
-      padding: 8px;
+      width: 1000px;
+      padding: 7px;
       text-overflow: ellipsis;
       overflow: hidden;
       white-space: nowrap;
       flex-shrink: 1;
       flex-grow: 1;
+      align-items: center;
     }
   }
-  :checked + label {
-    background-color: violet;
+  input:hover + .bloc-checked__rotate {
+    transform: rotate(0deg);
   }
+ 
+
+  
+  
   .break-text {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    flex-shrink: 0;
+
   }
   .bloc-checked {
     @include center;
@@ -481,33 +479,35 @@ a {
     width: 60px;
     transition: 500ms;
     transform: translatex(60px);
-    flex-shrink: 3;
+    flex-shrink: 1;
+    
+ 
   }
-  #check1{
-  display: none;
-  }
-  #check2{
-  display: none;
-  }
-  #check3{
-  display: none;
-  }
-  #check4{
+  #check1 {
     display: none;
   }
-  #check5{
+  #check2 {
     display: none;
   }
-  #check6{
+  #check3 {
     display: none;
   }
-  #check7{
+  #check4 {
     display: none;
   }
-  #check8{
+  #check5 {
     display: none;
   }
-  #check9{
+  #check6 {
+    display: none;
+  }
+  #check7 {
+    display: none;
+  }
+  #check8 {
+    display: none;
+  }
+  #check9 {
     display: none;
   }
   .bloc-checked__rotate {
@@ -516,11 +516,9 @@ a {
     
   }
 
-  
-  .bloc-pick__prix:hover ~ .bloc-checked  {
+  .bloc-pick__prix:hover ~ .bloc-checked {
     transform: translatex(0px);
     flex-shrink: 0;
-    
   }
 
   .break-text {
@@ -529,11 +527,14 @@ a {
     white-space: nowrap;
     flex-shrink: 1;
     flex-grow: 1;
+    
   }
+  
   .bloc-prices {
     display: flex;
     align-items: flex-end;
-    margin-left: 10px
+    margin-left: 4px;
+    padding-top: 15px;
   }
   .order-btn {
     @include purple-btn;

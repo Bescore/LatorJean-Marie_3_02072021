@@ -21,6 +21,8 @@ a {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
   margin: 0px;
+  animation: 2s loadpage 1 forwards;
+  opacity: 0;
 }
 
 /*header*/
@@ -394,6 +396,7 @@ a {
   /*img*/
   /*title*/
   /*section-menu1*/
+  /*loading menu*/
 }
 
 .menu1 * {
@@ -406,10 +409,6 @@ a {
   padding: 0;
   overflow: hidden;
   box-sizing: border-box;
-}
-
-.menu1 .body {
-  min-width: 375px;
 }
 
 .menu1 .header__display {
@@ -601,7 +600,6 @@ a {
   margin: 40px;
 }
 
-/*loading progressif*/
 @keyframes loadpage {
   from {
     opacity: 0;
@@ -611,17 +609,17 @@ a {
   }
 }
 
-.anim-menu1 {
+.menu1 .anim-menu1 {
   animation: 5s 1s   loadpage 1 forwards;
   opacity: 0;
 }
 
-.anim-menu2 {
+.menu1 .anim-menu2 {
   animation: 5s 2s loadpage 1 forwards;
   opacity: 0;
 }
 
-.anim-menu3 {
+.menu1 .anim-menu3 {
   animation: 5s 3s loadpage 1 forwards;
   opacity: 0;
 }

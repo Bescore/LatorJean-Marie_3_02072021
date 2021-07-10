@@ -50,6 +50,8 @@ a {
   font-family: $font-famtext;
   box-sizing: border-box;
   margin: 0px;
+  animation: 2s loadpage 1 forwards;
+  opacity: 0;
 }
 
 /*header*/
@@ -379,9 +381,7 @@ a {
     overflow: hidden;
     box-sizing: border-box;
   }
-  .body {
-    min-width: 375px;
-  }
+  
   /*header*/
   .header__display {
     display: initial;
@@ -552,9 +552,9 @@ a {
     @include center;
     margin: 40px;
   }
-}
 
-/*loading progressif*/
+
+/*loading menu*/
 
 
 @keyframes loadpage{
@@ -580,4 +580,6 @@ a {
   animation:   5s 3s loadpage 1 forwards;
   opacity: 0;
   
+}
+
 }

@@ -551,7 +551,7 @@ a {
 }
 
 .menu1 .bloc-checked__rotate {
-  transition: 500ms;
+  transition: 1s;
   transform: rotate(-180deg);
 }
 

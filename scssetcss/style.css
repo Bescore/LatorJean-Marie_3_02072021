@@ -477,7 +477,9 @@ a {
   display: flex;
   justify-content: space-between;
   width: 1000px;
-  padding: 7px;
+  padding: 5px;
+  padding-top: 0;
+  padding-bottom: 0;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
@@ -495,10 +497,7 @@ a {
   text-overflow: ellipsis;
   white-space: nowrap;
   flex-shrink: 0;
-  height: 55px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  line-height: 20px;
 }
 
 .menu1 .bloc-checked {
@@ -510,7 +509,6 @@ a {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   overflow: hidden;
-  transition: 500ms;
   width: 60px;
   transition: 500ms;
   transform: translatex(60px);
@@ -554,7 +552,7 @@ a {
 }
 
 .menu1 .bloc-checked__rotate {
-  transition: 700ms;
+  transition: 500ms;
   transform: rotate(-180deg);
 }
 
@@ -575,7 +573,7 @@ a {
   display: flex;
   align-items: flex-end;
   margin-left: 4px;
-  padding-top: 15px;
+  padding-top: 19px;
 }
 
 .menu1 .order-btn {

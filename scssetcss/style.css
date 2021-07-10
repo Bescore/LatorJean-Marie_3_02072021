@@ -304,7 +304,7 @@ a {
   bottom: 0;
   left: 0;
   right: 0;
-  animation: 5s nowyouseeme 1, 7s fade 1;
+  animation: 3s nowyouseeme 1, 7s fade 1;
   transform: scale(0);
   background-color: white;
   opacity: 0;

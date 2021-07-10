@@ -465,6 +465,10 @@ a {
     text-overflow: ellipsis;
     white-space: nowrap;
     flex-shrink: 0;
+    height: 55px;
+    @include displayflex;
+    flex-direction: column;
+    justify-content: center;
 
   }
   .bloc-checked {
@@ -480,8 +484,8 @@ a {
     transform: translatex(60px);
     flex-shrink: 1;
     
- 
   }
+  
   #check1 {
     display: none;
   }
@@ -514,6 +518,7 @@ a {
     transform: rotate(-180deg);
     
   }
+
 
   .bloc-pick__prix:hover ~ .bloc-checked {
     transform: translatex(0px);

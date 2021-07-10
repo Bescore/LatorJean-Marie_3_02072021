@@ -380,7 +380,7 @@ a {
   }
 }
 
-.menu {
+.menu1 {
   /*header*/
   /*figimg*/
   /*img*/
@@ -389,23 +389,23 @@ a {
   /*loading menu*/
 }
 
-.menu * {
+.menu1 * {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
 }
 
-.menu html {
+.menu1 html {
   margin-left: 0;
   padding: 0;
   overflow: hidden;
   box-sizing: border-box;
 }
 
-.menu .header__display {
+.menu1 .header__display {
   display: initial;
 }
 
-.menu .figimg {
+.menu1 .figimg {
   width: 370px;
   height: 300px;
   object-fit: cover;
@@ -415,7 +415,7 @@ a {
   margin: auto;
 }
 
-.menu .bloc-jayimg {
+.menu1 .bloc-jayimg {
   width: 370px;
   height: 300px;
   box-sizing: border-box;
@@ -423,12 +423,12 @@ a {
   object-fit: cover;
 }
 
-.menu h1 {
+.menu1 h1 {
   font-family: "Shrikhand", cursive;
   font-size: 1.8rem;
 }
 
-.menu .bloc-sectionmenu1 {
+.menu1 .bloc-sectionmenu1 {
   background-color: #f2f2f2;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
@@ -439,20 +439,20 @@ a {
   margin-bottom: -40px;
 }
 
-.menu .bloc-palette {
+.menu1 .bloc-palette {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.menu .titremenu_text {
+.menu1 .titremenu_text {
   border-bottom: 3px solid #99e2d0;
   width: 40px;
   margin-top: 35px;
   margin-left: 5px;
 }
 
-.menu .bloc-pick {
+.menu1 .bloc-pick {
   display: flex;
   background-color: #fff;
   border-radius: 15px;
@@ -462,7 +462,7 @@ a {
   margin-bottom: 15px;
 }
 
-.menu .bloc-pick__prix {
+.menu1 .bloc-pick__prix {
   display: flex;
   justify-content: space-between;
   width: 1000px;
@@ -477,11 +477,11 @@ a {
   align-items: center;
 }
 
-.menu input:hover + .bloc-checked__rotate {
+.menu1 input:hover + .bloc-checked__rotate {
   transform: rotate(0deg);
 }
 
-.menu .break-text {
+.menu1 .break-text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -489,7 +489,7 @@ a {
   line-height: 20px;
 }
 
-.menu .bloc-checked {
+.menu1 .bloc-checked {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -504,53 +504,53 @@ a {
   flex-shrink: 1;
 }
 
-.menu #check1 {
+.menu1 #check1 {
   display: none;
 }
 
-.menu #check2 {
+.menu1 #check2 {
   display: none;
 }
 
-.menu #check3 {
+.menu1 #check3 {
   display: none;
 }
 
-.menu #check4 {
+.menu1 #check4 {
   display: none;
 }
 
-.menu #check5 {
+.menu1 #check5 {
   display: none;
 }
 
-.menu #check6 {
+.menu1 #check6 {
   display: none;
 }
 
-.menu #check7 {
+.menu1 #check7 {
   display: none;
 }
 
-.menu #check8 {
+.menu1 #check8 {
   display: none;
 }
 
-.menu #check9 {
+.menu1 #check9 {
   display: none;
 }
 
-.menu .bloc-checked__rotate {
+.menu1 .bloc-checked__rotate {
   transition: 1s;
   transform: rotate(-180deg);
 }
 
-.menu .bloc-pick__prix:hover ~ .bloc-checked {
+.menu1 .bloc-pick__prix:hover ~ .bloc-checked {
   transform: translatex(0px);
   flex-shrink: 0;
 }
 
-.menu .break-text {
+.menu1 .break-text {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
@@ -558,14 +558,14 @@ a {
   flex-grow: 1;
 }
 
-.menu .bloc-prices {
+.menu1 .bloc-prices {
   display: flex;
   align-items: flex-end;
   margin-left: 4px;
   padding-top: 19px;
 }
 
-.menu .order-btn {
+.menu1 .order-btn {
   width: 218px;
   height: 50px;
   display: flex;
@@ -579,11 +579,11 @@ a {
   border: none;
 }
 
-.menu .order-btn:hover {
+.menu1 .order-btn:hover {
   transform: scale(1.2);
 }
 
-.menu .centered-btn {
+.menu1 .centered-btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -599,17 +599,17 @@ a {
   }
 }
 
-.menu .anim-menu1 {
+.menu1 .anim-menu1 {
   animation: 5s 1s   loadpage 1 forwards;
   opacity: 0;
 }
 
-.menu .anim-menu2 {
+.menu1 .anim-menu2 {
   animation: 5s 2s loadpage 1 forwards;
   opacity: 0;
 }
 
-.menu .anim-menu3 {
+.menu1 .anim-menu3 {
   animation: 5s 3s loadpage 1 forwards;
   opacity: 0;
 }

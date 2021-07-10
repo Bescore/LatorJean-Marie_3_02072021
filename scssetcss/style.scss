@@ -296,16 +296,17 @@ a {
   bottom: 0;
   left: 0;
   right: 0;
-  animation: 3s nowyouseeme 1, 3s fade;
+  animation: 5s nowyouseeme 1, 7s fade 1;
   transform: scale(0);
   background-color: white;
+  opacity: 0;
 }
 
 @keyframes fade {
-  from {
+  0%{
     opacity: 1;
   }
-  to {
+  100% {
     opacity: 0;
   }
 }
@@ -573,5 +574,10 @@ a {
   opacity: 0;
   
 }
+
+
+
+/*media querys menu*/
+
 
 }

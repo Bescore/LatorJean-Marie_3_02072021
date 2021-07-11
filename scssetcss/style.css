@@ -21,10 +21,6 @@ a {
   opacity: 0;
 }
 
-html {
-  margin: 0;
-}
-
 /*header*/
 .header {
   height: 61px;
@@ -724,6 +720,12 @@ html {
 .menu1 .anim-menu3 {
   animation: 5s 3s loadpage 1 forwards;
   opacity: 0;
+}
+
+@media screen and (max-width: 375px) {
+  .menu1 html {
+    width: 375px;
+  }
 }
 
 @media screen and (min-width: 375px) {

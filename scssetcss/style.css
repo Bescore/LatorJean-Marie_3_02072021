@@ -16,8 +16,7 @@ a {
 /*font*/
 .bodyfont {
   font-family: "Roboto", sans-serif;
-  box-sizing: border-box;
-  margin: 0px;
+  margin: 0;
   animation: 2s loadpage 1 forwards;
   opacity: 0;
 }
@@ -507,13 +506,6 @@ a {
 
 .menu1 * {
   font-family: "Roboto", sans-serif;
-  box-sizing: border-box;
-}
-
-.menu1 html {
-  margin-left: 0;
-  padding: 0;
-  overflow: hidden;
   box-sizing: border-box;
 }
 

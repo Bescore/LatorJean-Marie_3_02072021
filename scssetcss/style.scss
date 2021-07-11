@@ -47,8 +47,7 @@ a {
 /*font*/
 .bodyfont {
   font-family: $font-famtext;
-  box-sizing: border-box;
-  margin: 0px;
+  margin: 0;
   animation: 2s loadpage 1 forwards;
   opacity: 0;
 }
@@ -276,7 +275,6 @@ a {
   width: 170px;
   &__marg {
     margin-right: 10px;
-    
   }
 }
 
@@ -486,12 +484,6 @@ a {
 .menu1 {
   * {
     font-family: $font-famtext;
-    box-sizing: border-box;
-  }
-  html {
-    margin-left: 0;
-    padding: 0;
-    overflow: hidden;
     box-sizing: border-box;
   }
 

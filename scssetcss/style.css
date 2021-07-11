@@ -21,6 +21,10 @@ a {
   opacity: 0;
 }
 
+html {
+  margin: 0;
+}
+
 /*header*/
 .header {
   height: 61px;

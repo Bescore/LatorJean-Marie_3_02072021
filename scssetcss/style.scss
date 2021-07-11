@@ -271,12 +271,12 @@ a {
   object-fit: cover;
 }
 .icondiv-flex {
-  @include displayflex();
+  @include displayflex;
   align-items: center;
-  width: 165px;
-
+  width: 170px;
   &__marg {
     margin-right: 10px;
+    
   }
 }
 

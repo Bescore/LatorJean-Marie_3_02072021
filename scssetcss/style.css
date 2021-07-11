@@ -282,6 +282,10 @@ a {
   width: 170px;
 }
 
+.icondiv-flex__marg {
+  margin-right: 10px;
+}
+
 .bloc-ohmyfood {
   height: 15px;
   width: 100px;

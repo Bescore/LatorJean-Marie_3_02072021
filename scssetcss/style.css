@@ -279,6 +279,7 @@ a {
 .icondiv-flex {
   display: flex;
   align-items: center;
+  width: 165px;
 }
 
 .icondiv-flex__marg {

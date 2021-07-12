@@ -271,7 +271,7 @@ a {
   background-color: #353535;
   color: #fff;
   padding: 25px 0px 40px 20px;
-  margin-right: -10px;
+  margin: 0;
   box-sizing: border-box;
   object-fit: cover;
 }
@@ -507,7 +507,6 @@ a {
 
 .menu1 * {
   font-family: "Roboto", sans-serif;
-  box-sizing: border-box;
 }
 
 .menu1 .header__display {

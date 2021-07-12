@@ -266,7 +266,7 @@ a {
   background-color: $footer-color;
   color: #fff;
   padding: 25px 0px 40px 20px;
-  margin-right: -10px;
+  margin: 0;
   box-sizing: border-box;
   object-fit: cover;
 }
@@ -485,7 +485,6 @@ a {
 .menu1 {
   * {
     font-family: $font-famtext;
-    box-sizing: border-box;
   }
 
   /*header*/
@@ -525,7 +524,6 @@ a {
     box-sizing: border-box;
     margin-bottom: -40px;
   }
-  
 
   .bloc-palette {
     @include displayflex;
@@ -692,21 +690,17 @@ a {
     .bloc-pick {
       margin: 20px;
     }
-    
   }
 
-  @media screen and (max-width: 1920px){
-    .actif{
-      margin-right:13px;
+  @media screen and (max-width: 1920px) {
+    .actif {
+      margin-right: 13px;
+    }
   }
-}
 
-  @media screen and (min-width: 560px){
-
-    .actif{
-      margin-right:50px;
-
-      
+  @media screen and (min-width: 560px) {
+    .actif {
+      margin-right: 50px;
     }
   }
 }

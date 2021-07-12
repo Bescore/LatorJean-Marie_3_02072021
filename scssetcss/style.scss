@@ -1,4 +1,7 @@
 /*général*/
+element{
+  display: inline-block;
+}
 :root {
   font-size: 14px;
 }
@@ -50,13 +53,12 @@ a {
   margin: 0;
   animation: 2s loadpage 1 forwards;
   opacity: 0;
-  overflow-x: hidden;
 }
-
 /*header*/
 .header {
   height: 61px;
   @include center;
+  box-sizing: border-box;
 }
 .header__ohmyfoodimg {
   width: 162px;
@@ -111,7 +113,6 @@ a {
 .sectbackground {
   background-color: $color-four;
   height: 336px;
-  box-sizing: border-box;
   width: auto;
   margin: 0;
   padding: 0;
@@ -495,7 +496,6 @@ a {
   .bloc-jayimg {
     width: max-content;
     height: 300px;
-    box-sizing: border-box;
     overflow: hidden;
     object-fit: cover;
   }
@@ -513,7 +513,6 @@ a {
     padding: 10px;
     position: relative;
     bottom: 40px;
-    box-sizing: border-box;
     margin-bottom: -40px;
   }
 

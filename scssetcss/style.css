@@ -19,6 +19,7 @@ a {
   margin: 0;
   animation: 2s loadpage 1 forwards;
   opacity: 0;
+  overflow-x: hidden;
 }
 
 /*header*/
@@ -651,6 +652,7 @@ a {
 .menu1 .bloc-checked__rotate {
   transition: 1s;
   transform: rotate(-180deg);
+  overflow: hidden;
 }
 
 .menu1 .bloc-pick__prix:hover ~ .bloc-checked {

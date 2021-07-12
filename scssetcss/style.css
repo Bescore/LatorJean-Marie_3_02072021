@@ -271,7 +271,7 @@ a {
   background-color: #353535;
   color: #fff;
   padding: 25px 0px 40px 20px;
-  margin: 0;
+  margin-right: -10px;
   box-sizing: border-box;
   object-fit: cover;
 }

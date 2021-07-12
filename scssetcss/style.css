@@ -551,7 +551,7 @@ a {
 .menu1 .bloc-palette {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   border-top-right-radius: 30px;
 }
 

@@ -525,6 +525,7 @@ a {
     box-sizing: border-box;
     margin-bottom: -40px;
   }
+  
 
   .bloc-palette {
     @include displayflex;
@@ -690,6 +691,17 @@ a {
 
     .bloc-pick {
       margin: 20px;
+    }
+    
+  }
+
+
+  @media screen and (min-width: 560px){
+
+    .actif{
+      margin-right:50px;
+
+      
     }
   }
 }

@@ -738,4 +738,10 @@ a {
     margin: 20px;
   }
 }
+
+@media screen and (min-width: 560px) {
+  .menu1 .actif {
+    margin-right: 50px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

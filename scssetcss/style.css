@@ -541,7 +541,7 @@ a {
   background-color: #f2f2f2;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
-  padding: 5px;
+  padding: 10px;
   position: relative;
   bottom: 40px;
   box-sizing: border-box;
@@ -553,14 +553,14 @@ a {
   align-items: center;
   justify-content: space-between;
   border-top-right-radius: 30px;
-  margin-left: 5px;
+  margin-left: 20px;
 }
 
 .menu1 .titremenu_text {
   border-bottom: 3px solid #99e2d0;
   width: 40px;
   margin-top: 35px;
-  margin-left: 5px;
+  margin-left: 22px;
 }
 
 .menu1 .bloc-pick {

@@ -552,6 +552,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  border-top-right-radius: 30px;
 }
 
 .menu1 .titremenu_text {

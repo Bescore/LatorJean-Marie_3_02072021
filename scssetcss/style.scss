@@ -530,6 +530,7 @@ a {
     @include displayflex;
     align-items: center;
     justify-content: space-around;
+    border-top-right-radius: 30px;
   }
 
   .titremenu_text {

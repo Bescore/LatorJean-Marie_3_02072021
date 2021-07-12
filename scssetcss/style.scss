@@ -267,8 +267,6 @@ a {
   color: #fff;
   padding: 25px 0px 40px 20px;
   margin: 0;
-  box-sizing: border-box;
-  object-fit: cover;
 }
 .icondiv-flex {
   @include displayflex;
@@ -380,10 +378,7 @@ a {
   }
 
   .bloc-footer {
-    background-color: $footer-color;
-    color: #fff;
-    padding: 25px 0px 40px 20px;
-    margin: 0;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -408,10 +403,7 @@ a {
   }
 
   .bloc-footer {
-    background-color: $footer-color;
-    color: #fff;
-    padding: 25px 0px 40px 20px;
-    margin: 0;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;

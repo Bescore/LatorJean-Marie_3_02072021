@@ -1,7 +1,9 @@
 /*général*/
-element{
+html{
   display: inline-block;
+  overflow-x:hidden ;
 }
+  
 :root {
   font-size: 14px;
 }
@@ -58,7 +60,6 @@ a {
 .header {
   height: 61px;
   @include center;
-  box-sizing: border-box;
 }
 .header__ohmyfoodimg {
   width: 162px;
@@ -191,7 +192,6 @@ a {
 
 .bloc-section-rest {
   background-color: $color-four;
-  box-sizing: border-box;
   padding: 20px;
 }
 .bloc-rest {

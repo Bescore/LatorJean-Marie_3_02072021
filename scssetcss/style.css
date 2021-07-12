@@ -541,7 +541,7 @@ a {
   background-color: #f2f2f2;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
-  padding: 20px;
+  padding: 5px;
   position: relative;
   bottom: 40px;
   box-sizing: border-box;
@@ -553,6 +553,7 @@ a {
   align-items: center;
   justify-content: space-between;
   border-top-right-radius: 30px;
+  margin-left: 5px;
 }
 
 .menu1 .titremenu_text {

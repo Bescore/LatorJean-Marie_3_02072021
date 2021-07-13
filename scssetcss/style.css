@@ -505,6 +505,11 @@ a {
   font-family: "Roboto", sans-serif;
 }
 
+.menu1 .bloc-font {
+  font-family: "Shrikhand", cursive;
+  font-size: 2rem;
+}
+
 .menu1 .header__display {
   display: initial;
 }

@@ -256,15 +256,12 @@ a {
 .bold {
   font-weight: bold;
 }
-.bloc-heart-relative {
-  position: relative;
-  right: 30px;
-}
+
 
 .bloc-heart-relative {
   transform: scale(0);
   position: relative;
-  right: 31px;
+  right: 32px;
   transition: transform 500ms;
 }
 .fa-heart:hover + .bloc-heart-relative {

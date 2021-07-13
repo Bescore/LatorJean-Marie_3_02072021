@@ -5,6 +5,16 @@ html {
   overflow-x: hidden;
 }
 
+.bloc-font {
+  font-family: "Shrikhand", cursive;
+  font-size: 2rem;
+}
+
+#myfooter {
+  font-family: "Shrikhand", cursive;
+  font-size: 1.2rem;
+}
+
 :root {
   font-size: 14px;
 }
@@ -42,7 +52,7 @@ a {
 .header__display {
   display: none;
   position: relative;
-  left: 22px;
+  right: 75px;
 }
 
 .bloc-input {

@@ -267,6 +267,7 @@ a {
   position: relative;
   right: 32px;
   transition: transform 500ms;
+  color: #9356dc;
 }
 
 .fa-heart:hover + .bloc-heart-relative {

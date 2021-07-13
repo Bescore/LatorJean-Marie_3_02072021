@@ -1,4 +1,5 @@
 /*général*/
+
 html {
   display: inline-block;
   overflow-x: hidden;
@@ -262,6 +263,7 @@ a {
   position: relative;
   right: 32px;
   transition: transform 500ms;
+  color: $color-primary;
 }
 .fa-heart:hover + .bloc-heart-relative {
   transform: scale(100%);

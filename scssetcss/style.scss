@@ -1,18 +1,18 @@
 /*général*/
-html{
+html {
   display: inline-block;
-  overflow-x:hidden ;
+  overflow-x: hidden;
 }
 
 .bloc-font {
   font-family: "Shrikhand", cursive;
   font-size: 2rem;
 }
-#myfooter{
+#myfooter {
   font-family: "Shrikhand", cursive;
   font-size: 1.2rem;
 }
-  
+
 :root {
   font-size: 14px;
 }
@@ -27,7 +27,7 @@ $new-backcolor: #99e2d0;
 $new-fontcolor: #008766;
 $footer-color: #353535;
 $font-famtext: "Roboto", sans-serif;
-$font-titles:"Shrikhand", cursive;
+$font-titles: "Shrikhand", cursive;
 a {
   margin: 0;
   padding: 0;
@@ -257,7 +257,6 @@ a {
   font-weight: bold;
 }
 
-
 .bloc-heart-relative {
   transform: scale(0);
   position: relative;
@@ -274,7 +273,6 @@ a {
   background-color: $footer-color;
   color: #fff;
   padding: 25px 0px 40px 20px;
-  
 }
 .icondiv-flex {
   @include displayflex;
@@ -386,7 +384,6 @@ a {
   }
 
   .bloc-footer {
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -411,7 +408,6 @@ a {
   }
 
   .bloc-footer {
-    
     display: flex;
     flex-direction: column;
     justify-content: center;

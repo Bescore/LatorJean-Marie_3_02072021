@@ -193,6 +193,7 @@ a {
 .option:hover {
   background-color: #f5edff;
   cursor: pointer;
+  box-shadow: 1px 4px 20px 1px #c9c5c5;
 }
 
 /*restaurants/section2*/

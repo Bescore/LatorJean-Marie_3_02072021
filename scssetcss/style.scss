@@ -263,11 +263,15 @@ a {
   transform: scale(0);
   position: relative;
   right: 32px;
-  transition: transform 500ms;
   color: $color-primary;
+  margin: 0;
+  padding: 0;
 }
 .fa-heart:hover + .bloc-heart-relative {
-  transform: scale(100%);
+  transform: scale(1);
+  transition: 800ms linear;
+  
+  
 }
 
 /*footer*/

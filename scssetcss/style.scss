@@ -501,7 +501,7 @@ a {
   }
   /*figimg*/
   .figimg {
-    width: 370px;
+    width: max-content;
     height: 300px;
     object-fit: cover;
     @include center;
@@ -509,7 +509,7 @@ a {
   }
   /*img*/
   .bloc-jayimg {
-    width: max-content;
+    width: 1920px;
     height: 300px;
     overflow: hidden;
     object-fit: cover;

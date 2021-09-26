@@ -728,7 +728,29 @@ a {
   opacity: 0;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 150px) and (max-width: 339px) {
+  .menu1 .figimg {
+    margin: auto;
+    width: auto;
+  }
+  .menu1 .bloc-jayimg {
+    height: 300px;
+  }
+  .menu1 .bloc-pick {
+    margin: 20px;
+  }
+  .menu1 .bloc-heart-relative {
+    transform: scale(0);
+    position: relative;
+    right: 0px;
+    bottom: 28px;
+    color: #9356dc;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 340px) {
   .menu1 .figimg {
     margin: auto;
     width: auto;

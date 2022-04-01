@@ -582,11 +582,13 @@ a {
   }
 
   .break-text {
+    box-sizing: content-box;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     flex-shrink: 0;
     line-height: 20px;
+    padding: 20px
   }
   .bloc-checked {
     @include center;

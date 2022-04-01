@@ -335,7 +335,7 @@ a {
 }
 
 .first-layer-spinner {
-  border: 10px solid #f3f3f3;
+  border: 10px solid #fff;
   border-left: 10px solid #9356dc;
   border-right: 10px solid #ff79da;
   width: 150px;
@@ -348,7 +348,7 @@ a {
 }
 
 .second-layer-spinner {
-  border: 10px solid #f3f3f3;
+  border: 10px solid #fff;
   border-top: 10px solid #ff79da;
   border-bottom: 10px solid #99e2d0;
   width: 130px;
@@ -361,7 +361,7 @@ a {
 }
 
 .third-layer-spinner {
-  border: 10px solid #f3f3f3;
+  border: 10px solid #fff;
   border-right: 10px solid #99e2d0;
   border-left: 10px solid #ff79da;
   width: 110px;

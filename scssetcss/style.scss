@@ -258,18 +258,20 @@ a {
 .bold {
   font-weight: bold;
 }
-
+.fa-heart{
+  position: absolute;
+}
 .bloc-heart-relative {
   transform: scale(0);
   position: relative;
-  right: 32px;
+  right: 0;
   color: $color-primary;
   margin: 0;
   padding: 0;
 }
 .fa-heart:hover + .bloc-heart-relative {
   transform: scale(1);
-  transition: 800ms linear;
+  transition: 500ms ease-in;
   
   
 }
@@ -308,7 +310,7 @@ a {
   bottom: 0;
   left: 0;
   right: 0;
-  animation: 3s nowyouseeme 1, 7s fade 1;
+  animation: 5s nowyouseeme 1, 7s fade ;
   transform: scale(0);
   background-color: white;
   opacity: 0;
@@ -323,7 +325,9 @@ a {
   }
 }
 .first-layer-spinner {
+  border: 10px solid #f3f3f3;
   border-left: 10px solid $color-primary;
+  border-right: 10px solid $color-secondary;
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -332,7 +336,9 @@ a {
 }
 
 .second-layer-spinner {
+  border: 10px solid #f3f3f3;
   border-top: 10px solid $color-secondary;
+  border-bottom: 10px solid $color-tertiary;
   width: 130px;
   height: 130px;
   border-radius: 50%;
@@ -340,7 +346,9 @@ a {
   animation: 2s spinner linear infinite;
 }
 .third-layer-spinner {
+  border: 10px solid #f3f3f3;
   border-right: 10px solid $color-tertiary;
+  border-left: 10px solid $color-secondary;
   width: 110px;
   height: 110px;
   border-radius: 50%;
@@ -698,8 +706,7 @@ a {
   .bloc-heart-relative {
     transform: scale(0);
     position: relative;
-    right: 0px;
-    bottom:28px;
+    right: 0;
     color: $color-primary;
     margin: 0;
     padding: 0;
